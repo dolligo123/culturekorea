@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2021 콘텐츠 창의인재동반사업 사업화지원</title>
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard-dynamic-subset.css" />
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <div class="wrap">
+    <header class="header-wrap">
+      <div class="container">
+        <h1>2021 콘텐츠 창의인재동반사업 사업화 지원</h1>
+        <a class="menu-btn">
+          <span></span>
+          <span></span>
+          <span></span>
+        </a>
+        <div class="menu-wrap">
+          <nav>
+            <ul>
+              <li><a href="index.html" >HOME</a></li>
+              <li><a href="category-1.html">공연 · 음악</a></li>
+              <li><a href="category-2.html">캐릭터 · 애니메이션 · 게임</a></li>
+              <li><a href="category-3.html" class="on">영화 · 방송영상</a></li>
+              <li><a href="category-4.html">웹툰 · 웹소설 · 출판</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <div class="hero-wrap">
+      <div class="container">
+        <h2>영화 · 방송영상</h2>
+        <img src="../images/img-hero-category-1.jpg" alt="배경 이미지">
+      </div>
+    </div>
+
+    <main class="main-wrap">
+      <div class="container">
+        <div class="menu-wrap">
+          <nav>
+            <ul>
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="category-1.html">공연 · 음악</a></li>
+              <li><a href="category-2.html">캐릭터 · 애니메이션 · 게임</a></li>
+              <li><a href="category-3.html" class="on">영화 · 방송영상</a></li>
+              <li><a href="category-4.html">웹툰 · 웹소설 · 출판</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="content-wrap">
+          <div class="detail-top">
+            <div class="thumb">
+              <img src="../images/poster-category-3-5.jpg" alt="스프린터" />
+            </div>
+            <div class="detail-text">
+              <span class="category">영화 · 방송영상</span>
+              <span class="title">스프린터</span>
+              <span class="name">최승연</span>
+              <ul class="detail-list">
+                <li>
+                  <h3>작품 실적</h3>
+                  <p>영화진흥위원회, 서울영상위원회 경기영상위원회 등 독립영화 제작지원 선정
+                    인디그라운드 서울독립영화제 후반제작 지원</p>
+                </li>
+                <li>
+                  <h3>로그라인</h3>
+                  <p>100미터 단거리 국가대표 선발전을 준비하는
+                  세 선수의 이야기.</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="detail-introduction">
+            <h3>작품 소개</h3>
+            <p>한때 국내에서 가장 빠른 기록을 가지고 있던 단거리 선수 현수.
+              현재는 빠르지 않지만, 점점 기록이 오르고 있는 단거리 선수 준서.
+              현재 가장 빠른 기록을 가지고 있는 정호.
+              세 선수가 각자의 이유로 국가대표 선발전을 준비한다.</p>
+          </div>
+          <hr>
+          <div class="detail-creator">
+            <h3>프로젝트 창작자</h3>
+            <h4>최승연</h4>
+            <p>중앙대학교와 한국영화아카데미에서 영화 연출을 전공했다.
+              2016년 개봉한 &lt;수색역&gt;을 첫 영화로 만들었다.
+              현재는 &lt;스프린터&gt;의 후반을 하며, 개봉을 준비하고 있고.
+              MBC CNI에서 드라마를 준비하고 있다.</p>
+          </div>
+      </div>
+    </main>
+
+    <footer class="footer-wrap">
+      <div class="container">
+        <h2 class="text-h3">2021 콘텐츠 창의인재동반사업 사업화 지원</h2>
+        <ul>
+          <li>
+            <strong>사업화 지원 사업 담당</strong>
+            <p>기업·인재양성본부 인재양성팀  <a href="tel:+02-6310-0664">02-6310-0664</a></p>
+          </li>
+          <li>
+            <strong>사업화 지원 운영사무국</strong>
+            <p>E. <a href="mailto:culture@culturing.org">culture@culturing.org</a> ㅣ T. <a href="tel:+070-7726-8859">070-7726-8859</a></p>
+          </li>
+        </ul>
+        <div class="logo">
+          <a href="https://www.mcst.go.kr/"><img src="../images/logo-mcst.svg" alt="문화체육관광부"></a>
+          <a href="http://www.kocca.kr/"><img src="../images/logo-kocca.svg" alt="한국콘텐츠진흥원"></a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    $(function () {
+      //메뉴 클릭시 네비게이션 보이기
+      $('.menu-btn').on('click', function (e) {
+        $(this).toggleClass('active');
+        $('body').toggleClass('no-scroll');
+      });
+
+    });
+  </script>
+  <!-- Swiper JS -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".intro-swiper", {
+      slidesPerView: 1,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+      breakpoints: {
+        1200: {
+          slidesPerView: 3,
+        },
+      },
+    });
+
+    
+  </script>
+  
+</body>
+</html>
